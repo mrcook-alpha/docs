@@ -205,3 +205,8 @@ In the "Workflow permissions" section, you can set the **default** permissions g
 Anyone with write access to a repository can still modify the permissions granted to the `GITHUB_TOKEN` for a specific workflow, by editing the `permissions` key in the workflow file.
 
 **Allow GitHub Actions to create and approve pull requests** is disabled by default. If you enable this setting, `GITHUB_TOKEN` can create and approve pull requests.
+git checkout my-feature-branch
+# make your edits
+git add .
+git commit -m "Fix issue in PR branch"
+git push origin my-feature-branch
